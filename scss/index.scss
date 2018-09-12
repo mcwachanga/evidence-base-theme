@@ -47,3 +47,21 @@ $navbar-light-hover-color:   $white;
 .card-row{
     margin-bottom: 16px;
 }
+
+.search-box{
+    i{
+        padding-top: 12px;
+        color: #454545;
+    }
+
+    .input-group > .input-group-addon{
+        text-align: center;
+        background: #fff;
+        padding: 0px 8px;
+    }
+
+    input{
+        border: none;
+        width: 350px !important;
+    }
+}

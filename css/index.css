@@ -6343,3 +6343,16 @@ a.text-dark:hover, a.text-dark:focus {
 
 .card-row {
   margin-bottom: 16px; }
+
+.search-box i {
+  padding-top: 12px;
+  color: #454545; }
+
+.search-box .input-group > .input-group-addon {
+  text-align: center;
+  background: #fff;
+  padding: 0px 8px; }
+
+.search-box input {
+  border: none;
+  width: 350px !important; }
