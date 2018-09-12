@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <title>Evidence Base</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.png" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <form class="form-inline my-2 my-lg-0 search-box">
+                    <div class="input-group">
+                        <span class="input-group-addon">
+                            <i class="fas fa-search"></i>
+                        </span>
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search for evidence" aria-label="Search">
+                    </div>
+                    <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
+                </form>
+            </div>
+            <span class="notification">
+                <i class="fas fa-bell"></i>
+            </span>
+            <span class="user-account">
+                <img src="images/user.png" />
+            </span>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <span class="page-title">
+                Category A
+                <i class="fas fa-pen"></i>
+            </span>
+            <div class="page-actions" style="float: right;">
+                <button class="btn">RATING: STRONG</button>
+                <button class="btn">
+                    <i class="fas fa-cog"></i> Triggers</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+                    <div class="card-body">
+                        <form class="multi-step-form" action="">
+                            <ul class="steps">
+                                <li>
+                                    <span class="active">1</span> Details</li>
+                                <li>
+                                    <span>2</span> Categories</li>
+                                <li>
+                                    <span>3</span> Weight Settings</li>
+                            </ul>
+                            <!-- <div class="tab">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <div class="form-group">
+                                            <label for="boardName">Name of the board</label>
+                                            <input type="text" class="form-control" id="boardName" placeholder="">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="boardDescr">Describe the board</label>
+                                            <input type="text" class="form-control" id="boardDescr" placeholder="">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="boardGeo">Geographical focus of the board</label>
+                                            <input type="text" class="form-control" id="boardGeo" placeholder="">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="boardTags">Tags</label>
+                                            <input type="text" class="form-control" id="boardTags" placeholder="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 upload-pic">
+                                        <i class="fas fa-images"></i>
+                                    </div>
+                                </div>
+                            </div> -->
+
+                            <!-- <div class="tab">
+                                <button class="btn">Add Attribute
+                                    <i class="fas fa-plus"></i>
+                                </button>
+                                <div class="attribute">
+                                    <a data-toggle="collapse" href="#collapseAttribute" role="button" aria-expanded="false" aria-controls="collapseAttribute">
+                                        Attribute 1
+                                        <i class="fas fa-caret-down"></i>
+                                    </a>
+                                </div>
+                                <div class="collapse row" id="collapseAttribute">
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <label for="boardCategoryName1">Category name</label>
+                                            <input type="text" class="form-control" id="boardCategoryName1" placeholder="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="form-group">
+                                            <label for="boardCategoryName1">Describe the category</label>
+                                            <input type="text" class="form-control" id="boardCategoryName1" placeholder="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-1">
+                                        <button class="btn add-category-btn">
+                                            <i class="fas fa-plus"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div> -->
+
+                            <div class="tab">
+                                <button class="btn">Add Weight
+                                    <i class="fas fa-plus"></i>
+                                </button>
+                                <div class="attribute">
+                                    <a data-toggle="collapse" href="#collapseAttribute" role="button" aria-expanded="false" aria-controls="collapseAttribute">
+                                        Weight 1
+                                        <i class="fas fa-caret-down"></i>
+                                    </a>
+                                </div>
+                                <div class="collapse row" id="collapseAttribute">
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" id="boardWeightName1" placeholder="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="form-group">
+                                            <label for="boardWeightRange1">Weight Range</label>
+                                            <input type="range" class="form-control-range" id="boardWeightRange1">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-1">
+                                        <button class="btn add-weight-btn">
+                                            <i class="fas fa-plus"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div style="overflow:auto;">
+                                <div style="float:left;">
+                                    <button type="button" id="cancelBtn" class="btn">Cancel</button>
+                                </div>
+                                <div style="float:right;">
+                                    <button type="button" id="prevBtn" class="btn" onclick="nextPrev(-1)">Previous</button>
+                                    <button type="button" id="nextBtn" class="btn" onclick="nextPrev(1)">Next</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -6312,6 +6312,61 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
+.card-title img {
+  width: auto;
+  height: 24px;
+  margin: 0px 16px 0px 0px; }
+
+.card-stats {
+  margin: 16px 0px; }
+
+.card-row {
+  margin-bottom: 16px; }
+
+.multi-step-form .steps {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none; }
+  .multi-step-form .steps span {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #008fff;
+    padding: 16px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    padding-top: 12px;
+    margin-right: 16px; }
+  .multi-step-form .steps span.active {
+    border: none;
+    background: #ffc200; }
+
+.multi-step-form .upload-pic {
+  border: 2px dotted #454545;
+  width: 200px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .multi-step-form .upload-pic i {
+    color: #454545;
+    font-size: 128px; }
+
+.multi-step-form .tab {
+  margin-bottom: 32px; }
+
+.multi-step-form .add-category-btn {
+  margin-top: 30px; }
+
+.multi-step-form .add-weight-btn {
+  margin-top: 0px; }
+
+.item-img {
+  width: 50px;
+  height: 50px; }
+
 .bg-light {
   background-color: #008fff !important; }
 
@@ -6329,30 +6384,43 @@ a.text-dark:hover, a.text-dark:focus {
 
 .page-title {
   text-align: center;
-  font-size: 24pt;
+  font-size: 22px;
   color: #454545;
   margin: 16px 0px; }
+  .page-title i {
+    margin-left: 32px; }
 
-.card-title img {
-  width: auto;
-  height: 24px;
-  margin: 0px 16px 0px 0px; }
+.page-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; }
 
-.card-stats {
-  margin: 16px 0px; }
+.search-box {
+  margin-left: 96px; }
+  .search-box i {
+    padding-top: 12px;
+    color: #454545; }
+  .search-box .input-group > .input-group-addon {
+    text-align: center;
+    background: #fff;
+    padding: 0px 8px; }
+  .search-box input {
+    border: none;
+    width: 350px !important; }
 
-.card-row {
-  margin-bottom: 16px; }
-
-.search-box i {
-  padding-top: 12px;
-  color: #454545; }
-
-.search-box .input-group > .input-group-addon {
+.float-button {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #ffc200;
+  color: #454545;
+  border-radius: 50px;
   text-align: center;
-  background: #fff;
-  padding: 0px 8px; }
-
-.search-box input {
-  border: none;
-  width: 350px !important; }
+  box-shadow: 2px 2px 3px #999;
+  text-align: center; }
+  .float-button i {
+    font-size: 24px;
+    margin-top: 16px; }

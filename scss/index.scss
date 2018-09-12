@@ -1,11 +1,12 @@
 // Custom.scss
 @import "../node_modules/bootstrap/scss/bootstrap";
-
-$navbar-light-color:         $white;
-$navbar-light-hover-color:   $white;
+@import "board";
+@import "multi-step";
+@import "category-board";
+@import "variables";
 
 .bg-light {
-    background-color: #008fff !important;
+    background-color: $blue-color !important;
 }
 
 .navbar-brand {
@@ -27,31 +28,28 @@ $navbar-light-hover-color:   $white;
 
 .page-title{
     text-align: center;
-    font-size: 24pt;
-    color: #454545;
+    font-size: 22px;
+    color: $gray-color;
     margin: 16px 0px;
-}
 
-.card-title{
-    img{
-        width: auto;
-        height: 24px;
-        margin: 0px 16px 0px 0px;
+    i{
+        margin-left: 32px;
     }
 }
 
-.card-stats{
-    margin: 16px 0px;
-}
-
-.card-row{
-    margin-bottom: 16px;
+.page-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .search-box{
+    margin-left: 96px;
+
     i{
         padding-top: 12px;
-        color: #454545;
+        color: $gray-color;
     }
 
     .input-group > .input-group-addon{
@@ -63,5 +61,24 @@ $navbar-light-hover-color:   $white;
     input{
         border: none;
         width: 350px !important;
+    }
+}
+
+.float-button{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:$yellow-color;
+	color:$gray-color;
+	border-radius:50px;
+	text-align:center;
+    box-shadow: 2px 2px 3px #999;
+    text-align: center;
+
+    i{
+        font-size: 24px;
+        margin-top: 16px;
     }
 }
