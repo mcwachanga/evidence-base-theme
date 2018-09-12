@@ -1,3 +1,49 @@
 // Custom.scss
 @import "../node_modules/bootstrap/scss/bootstrap";
 
+$navbar-light-color:         $white;
+$navbar-light-hover-color:   $white;
+
+.bg-light {
+    background-color: #008fff !important;
+}
+
+.navbar-brand {
+    img{
+        width: 40px;
+        height: 40px;
+    }
+}
+
+.notification{
+    color: #fff;
+    font-size: 21px;
+    margin: 0px 16px;
+}
+
+.user-account{
+    margin: 0px 0px 0px 16px;
+}
+
+.page-title{
+    text-align: center;
+    font-size: 24pt;
+    color: #454545;
+    margin: 16px 0px;
+}
+
+.card-title{
+    img{
+        width: auto;
+        height: 24px;
+        margin: 0px 16px 0px 0px;
+    }
+}
+
+.card-stats{
+    margin: 16px 0px;
+}
+
+.card-row{
+    margin-bottom: 16px;
+}
