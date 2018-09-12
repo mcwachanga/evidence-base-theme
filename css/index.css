@@ -6363,9 +6363,34 @@ a.text-dark:hover, a.text-dark:focus {
 .multi-step-form .add-weight-btn {
   margin-top: 0px; }
 
+.category-board {
+  font-size: 14px; }
+
+.card-title {
+  font-weight: 300;
+  font-size: 16px;
+  color: #858585; }
+
+.activity {
+  margin-bottom: 8px;
+  font-size: 14px; }
+
 .item-img {
   width: 50px;
   height: 50px; }
+
+.item-details div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+.item-details .heading {
+  font-weight: bold;
+  color: #454545;
+  text-transform: uppercase; }
+
+.item-details p {
+  margin-top: 8px; }
 
 .bg-light {
   background-color: #008fff !important; }

@@ -1,4 +1,52 @@
+@import "variables";
+
+.category-board{
+    font-size: 14px;
+}
+
+.card-title{
+    font-weight: 300;
+    font-size: 16px;
+    color: #858585;
+}
+
+.activity{
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
 .item-img{
     width: 50px;
     height: 50px;
+}
+
+.item-details{
+    
+    div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .heading{
+        font-weight: bold;
+        color: $gray-color;
+        text-transform: uppercase;
+    }
+
+    .date{
+        
+    }
+
+    .tags{
+
+    }
+
+    .user{
+
+    }
+
+    p{
+        margin-top: 8px;
+    }
 }
